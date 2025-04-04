@@ -6,3 +6,20 @@
 
        --author
               with -l, print the author of each file
+              a o --all
+Muestra todos los archivos, incluyendo los ocultos, es decir, aquellos cuyo nombre empieza con un punto (.).
+🔹 Por ejemplo: .bashrc, .gitignore.
+
+Sin -a, ls no muestra esos archivos ocultos.
+
+-A o --almost-all
+También muestra casi todos los archivos, incluyendo los ocultos… pero excluye . y .., que representan el directorio actual y el padre, respectivamente.
+
+Es útil si quieres ver los archivos ocultos pero sin que aparezcan esas dos entradas especiales.
+
+--author
+Cuando se usa junto con -l (que activa el formato de listado largo), muestra también el autor de cada archivo.
+
+Ejemplo: ls -l --author
+Verás columnas como: permisos, propietario, grupo, autor, tamaño, fecha, nombre del archivo.
+
